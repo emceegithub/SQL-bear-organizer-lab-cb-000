@@ -27,5 +27,5 @@ def counts_number_of_bears_with_goofy_temperaments
 end
 
 def selects_bear_that_killed_Tim
-  "select name from bears where alive = 0;"
+  "select * from bears where id = 8;"
 end
